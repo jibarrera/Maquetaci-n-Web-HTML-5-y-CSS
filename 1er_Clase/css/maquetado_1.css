@@ -1,0 +1,135 @@
+/*
+ttf: True Type Font
+otf: Open Type Font;
+*/
+
+
+/*Tipografia y Regla para enlazar la tipografia en Dafont.com*/
+@font-face{
+	font-family: Meatloaf;
+	src : url(../fonts/Meatloaf.ttf);
+}
+
+body{
+
+	width: 1100px;
+	height: auto;
+	background-color: rgba(255,0,0, 0.3);
+	margin: auto;
+	font-family: arial, verdana, sans-serif;
+
+}
+
+/*SELECTORES GRUPALES*/
+header, nav, main, footer{width: 100%;}
+
+
+
+header{
+
+	height: 300px;
+	background-color: brown;
+
+}
+
+#logo{
+	width: 150px;
+	height: 150px;
+
+}
+
+#logo img{
+	width: 150px;
+	height: 150px;
+
+}
+
+header h1{
+	text-align: center;
+	line-height: 50px;
+	margin-top: 0px;
+	font-family: Meatloaf;
+	font-size: 50px;
+	color: white;
+
+}
+
+
+/*Menu de Navegación*/
+nav{
+	height: 40px;
+	background-color: #000;
+
+
+}
+
+main{
+
+	height: 600px ;
+	background-color: white;
+
+}
+
+
+
+section{
+
+	width: 50%;
+	height: 600px;
+	background-color: #414141;
+	padding: 20px;
+
+}
+
+/*SELECTOR ESPECIFICO*/
+section p{
+	color: #fff;
+	font-size: 15px;
+	text-align: justify;
+	/*Propiedad de Espacio entre Lineas*/line-height:20px; 
+	font-family: 'Alatsi', sans-serif;
+	color: white;
+	/*Propiedad de Tabulado text-indent: 50px;*/
+	/*Propiedad Texto en negrita font-weight: 700;*/
+	/*font-style: oblique;*/
+	/* Propiedad que convierte todo el texto en mayusculas. font-variant: small-caps;*/
+	/*text-transform: lowercase; /*capitalize - lowercase - uppercase*/;
+
+
+					
+}
+
+
+section h1{color: #fff; 
+	margin-top: 0px; 
+	/*Propiedad de texto subrayado */text-decoration: underline; /*line-through: /*overline;  Propiedad que permite tachar texto, precios, ect.text-decoration: line-through;*/
+
+}
+/*PIE DE PÁGINA*/
+
+footer{
+
+	height: 450px;
+	background-color: brown;
+	padding-top: 30px;
+
+
+	}
+
+figure img{
+	width: 400px;
+	height: 300px;
+
+}
+
+footer h1{
+	text-align: center;
+	line-height: 50px;
+	margin-top: 0px;
+	font-family: Meatloaf;
+	font-size: 50px;
+	color: white;
+
+	/*Regla par definir un espacio entre un caracter y otro caracter. Es decir, un espaciado entre letras.*/
+	letter-spacing: 6px;
+}
