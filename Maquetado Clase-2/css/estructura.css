@@ -1,0 +1,106 @@
+@import url(style.css);
+
+
+*{box-sizing: border-box;}
+
+body{
+
+    width: 100%;
+    height: auto;
+    font-family: alatsi, sans-serif;
+    background-color: coral;
+    margin: 0;
+}
+
+#btn{
+
+    width: 80px;
+    height: 70px;
+    border-radius: 10px;
+    position:absolute;
+    background-image: url(img/icono1.png);
+
+}
+
+#btn img{
+    width: 60px;
+    height: 60px;
+}
+
+nav, main, footer{
+    width: 100%;
+}
+
+nav{
+    height: 50px;
+    background-color: black;
+    color: yellow;
+    line-height: 30px;
+    position: fixed;
+}
+
+p{
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+
+
+main{
+
+    height: 550px;
+    background-color: midnightblue;
+}
+
+footer{
+
+    height: 350px;
+    background-color: black;
+    color:yellow;
+}
+
+.rojo{
+    color: yellow;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+/* Propiedad Float*/
+#izquierda{
+    width: 25%;
+    height: 550px;
+    background-color: aquamarine;
+    float: left;
+    border-right: 20px solid gainsboro;
+}
+
+#principal{
+    width: 50%;
+    background-color: chartreuse;
+    height: 550px;
+    float: left;
+    border-right:20px solid gainsboro;
+    padding: 15px 50px;
+}
+
+#principal h1{
+    margin-top: 0}
+
+
+#principal p{ text-align: left; line-height: 25px;}
+
+#derecha{
+    width: 25%;
+    background-color: darkmagenta;
+    height: 550px;
+    float: right;
+}
+
+
+
+
